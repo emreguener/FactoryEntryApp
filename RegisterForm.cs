@@ -27,7 +27,7 @@ namespace OperatorEntryApp
             txtPassword.UseSystemPasswordChar = true; // Şifre alanında yıldız karakter kullanımı
             cmbRole.Items.Add("engineer");
             cmbRole.Items.Add("operator");
-            cmbRole.Items.Add("supervisor ");
+            cmbRole.Items.Add("supervisor");
             cmbRole.SelectedIndex = 1; // default operator
         }
 
